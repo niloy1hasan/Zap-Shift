@@ -4,14 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-.urbanist-regular {
-  font-family: "Urbanist", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
-
-.inter-regular {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+@theme {
+    --color-primary-color: #CAEB66;
+    --font-urbanist: "Urbanist", sans-serif;
+    --font-inter: "Inter", sans-serif;
+    --color-dark-gray: #606060;
+    --color-background-color: rgb(234, 236, 237);
+    --spacing-rw: 1500px;
+    --color-black-primary: #1F1F1F;
 }
