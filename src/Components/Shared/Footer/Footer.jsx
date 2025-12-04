@@ -5,7 +5,7 @@ import { FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
     return (
-      <footer className="max-w-rw font-urbanist mt-20 xl:mt-32 mx-auto w-[95%] rounded-4xl urbanist-regular relative text-center bg-[#0B0B0B]  text-white">
+      <footer className="max-w-rw font-urbanist mt-20 bottom-5 lg:bottom-8 xl:mt-32 mx-auto w-[95%] rounded-4xl urbanist-regular relative text-center bg-[#0B0B0B]  text-white">
         <div className="px-6 py-8 md:py-14 xl:pt-20 xl:pb-12">
           <div className="font-bold flex justify-center items-center text-3xl xl:text-4xl leading-snug">
             <img src="/src/assets/logo.png" alt="" className='relative -top-2 left-5'/>
@@ -15,7 +15,7 @@ const Footer = () => {
 
 
           <div className="mt-6 xl:mt-8">
-  <nav className="flex flex-col md:flex-row md:flex-wrap justify-center text-sm font-light">
+  <nav className="flex flex-wrap justify-center text-sm font-light">
     <div className="px-5 py-2">
       <a
         href="#"
