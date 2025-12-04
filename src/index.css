@@ -9,6 +9,7 @@
     name: "light";
     default: true;
     --color-primary: #CAEB66;
+    --color-secondary: #03373D;
 }
 
 

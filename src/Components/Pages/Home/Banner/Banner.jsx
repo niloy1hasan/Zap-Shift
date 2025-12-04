@@ -9,7 +9,7 @@ import { MdArrowOutward } from 'react-icons/md';
 const Banner = () => {
 
     const bannerBtn = <>
-    <div className="absolute bottom-0 lg:bottom-8 xl:bottom-12 2xl:bottom-16 lg:left-16 xl:left-20 2xl:left-24  mb-5 gap-1.5 hidden lg:flex">
+    <div className="absolute bottom-0 lg:bottom-8 xl:bottom-12 2xl:bottom-16 lg:left-16 xl:left-20 2xl:left-24  mb-5 gap-3 hidden lg:flex">
                         <button className='btn btn-primary bg-primary text-black-primary rounded-full'>
                         Track Your Parcel
                         </button>
@@ -18,7 +18,7 @@ const Banner = () => {
                         <MdArrowOutward size={24} className="text-primary" />
                         </button>
 
-                        <button className='btn btn-outline rounded-[10px] hover:bg-black hover:text-white'>
+                        <button className='btn btn-outline outline-dark-gray bg-[#fdfef9] rounded-[10px] hover:bg-black-primary hover:text-white'>
                         Be A Rider
                         </button>
                     </div>
